@@ -44,5 +44,6 @@ jobs:
         commit_message: 'chore(deploy): deploy docs Site to GitHub Pages'
         keep_history: false
         jekyll: false
+        fqdn: devsecops.aiaadeic.org
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
