@@ -6,6 +6,7 @@ export default defineConfig({
   title: 'AIAA DEIC DevSecOps',
   description: "A documentation site for the AIAA DEIC DevSecOps Subcommittee",
   head: [],
+  base: 'https://aiaa-deic.github.io/devsecops/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     siteTitle: false,
