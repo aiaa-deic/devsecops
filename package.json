@@ -1,0 +1,56 @@
+{
+  "name": "aiaa-deic-devsecops",
+  "version": "1.0.0",
+  "description": "Documentation site for the AIAA DEIC DevSecOps Subcommittee",
+  "scripts": {
+    "test": "test",
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "npm run build && npx live-server ./docs/.vitepress/dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aiaadeic/devsecops.git"
+  },
+  "keywords": [
+    "AIAA",
+    "Aerospace",
+    "Digital",
+    "Engineering",
+    "DevSecOps",
+    "Industry"
+  ],
+  "author": "Subcommittee members",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aiaadeic/devsecops/issues"
+  },
+  "homepage": "https://github.com/aiaadeic/devsecops#readme",
+  "dependencies": {
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-preset-env": "^9.1.0",
+    "tailwindcss": "^3.3.3",
+    "vitepress": "^1.0.0-beta.7",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.27"
+  },
+  "postcss": {
+    "plugins": {
+      "tailwindcss": {},
+      "autoprefixer": {},
+      "postcss-flexbugs-fixes": {},
+      "postcss-preset-env": {
+        "autoprefixer": {
+          "flexbox": "no-2009"
+        },
+        "features": {
+          "custom-properties": false
+        },
+        "stage": 3
+      }
+    }
+  }
+}

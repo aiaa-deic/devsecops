@@ -1,0 +1,40 @@
+name: Deploy to GitHub Pages
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - ".github/**"
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout 🛎️
+      uses: actions/checkout@v3
+      with:
+        persist-credentials: false
+
+    - name: Setup Node 🔧
+      uses: actions/setup-node@v3
+      with:
+        node-version: 18
+        cache: 'npm'
+
+    - name: Install Dependencies ⚙️
+      run: |
+        npm ci
+
+    - name: Build Application 🏗️
+      run: |
+        npm run build
+
+    - name: Deploy 🚀
+      if: success()
+      uses: crazy-max/ghaction-github-pages@v3
+      with:
+        target_branch: gh-pages
+        build_dir: docs/.vitepress/dist
+        commit_message: 'chore(deploy): deploy docs Site to GitHub Pages'
+        keep_history: false
+        jekyll: false
