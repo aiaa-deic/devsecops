@@ -6,7 +6,9 @@
     "test": "test",
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
-    "preview": "npm run build && npx live-server ./docs/.vitepress/dist"
+    "preview": "npm run build && npx live-server ./docs/.vitepress/dist",
+    "lint": "eslint . --fix --ext .js,.ts && npx prettier . --write",
+    "commit": "cz"
   },
   "repository": {
     "type": "git",
@@ -34,8 +36,17 @@
     "vue": "^3.3.4"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.6.7",
+    "@commitlint/config-conventional": "^17.6.7",
     "autoprefixer": "^10.4.14",
-    "postcss": "^8.4.27"
+    "commitizen": "^4.3.0",
+    "eslint": "^8.46.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^17.1.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "postcss": "^8.4.27",
+    "prettier": "^3.0.1"
   },
   "postcss": {
     "plugins": {
@@ -51,6 +62,11 @@
         },
         "stage": 3
       }
+    }
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
     }
   }
 }

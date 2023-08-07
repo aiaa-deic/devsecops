@@ -7,18 +7,34 @@
  * Colors
  * -------------------------------------------------------------------------- */
 
- :root {
-  --vp-c-brand: #1A3D6E;
-  --vp-c-brand-light: #4E7AB7;
-  --vp-c-brand-lighter: #6A8AB7;
-  --vp-c-brand-lightest: #7DA4DB;
+:root {
+  --vp-c-brand: #1a3d6e;
+  --vp-c-brand-light: #4e7ab7;
+  --vp-c-brand-lighter: #6a8ab7;
+  --vp-c-brand-lightest: #7da4db;
   --vp-c-brand-dark: #233753;
   --vp-c-brand-darker: #082348;
+  --vp-c-accent-green: #61931e;
+  --vp-c-accent-green-lighter: #78af03;
+  --vp-c-accent-green-darker: #497638;
+  --vp-c-accent-yellow: #f2c300;
   --vp-c-brand-dimm: rgba(100, 108, 255, 0.08);
 }
 
+.vp-doc a {
+  color: var(--vp-c-brand-lighter) !important;
+}
+
+.VPSidebarItem.level-1.is-active > .item .link > .text {
+  color: var(--vp-c-accent-green) !important;
+}
+
+.icon {
+  background-color: transparent !important;
+}
+
 .dark {
-    --vp-c-brand: #4E7AB7;
+  --vp-c-brand: #4e7ab7;
 }
 
 /**
@@ -43,18 +59,14 @@
 
 :root {
   --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: -webkit-linear-gradient(
-    90deg,
-    #78AF03,
-    #F2C300
-  );
+  --vp-home-hero-name-background: #78af03;
 
-  /*--vp-home-hero-image-background-image: linear-gradient(*/
-  /*  -45deg,*/
-  /*  #F2C300 50%,*/
-  /*  #78AF03 50%*/
-  /*);*/
-  /*--vp-home-hero-image-filter: blur(40px);*/
+  --vp-home-hero-image-background-image: linear-gradient(
+    -45deg,
+    #78af03 50%,
+    #78af03 50%
+  );
+  --vp-home-hero-image-filter: blur(40px);
 }
 
 @media (min-width: 640px) {
@@ -92,4 +104,3 @@
 .DocSearch {
   --docsearch-primary-color: var(--vp-c-brand) !important;
 }
-
