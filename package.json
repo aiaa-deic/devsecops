@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aiaadeic/devsecops.git"
+    "url": "git+https://github.com/aiaa-deic/devsecops.git"
   },
   "keywords": [
     "AIAA",
@@ -25,9 +25,9 @@
   "author": "Subcommittee members",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/aiaadeic/devsecops/issues"
+    "url": "https://github.com/aiaa-deic/devsecops/issues"
   },
-  "homepage": "https://github.com/aiaadeic/devsecops#readme",
+  "homepage": "https://github.com/aiaa-deic/devsecops#readme",
   "dependencies": {
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-preset-env": "^9.1.0",
