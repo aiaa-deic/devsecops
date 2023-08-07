@@ -70,7 +70,7 @@ This section defines the commands you can run on the project.
 The important one here is `dev`.
 Running the command `npm run dev` will start a local server and run the website locally.
 You'll click the link provided in the terminal to open the website in your browser.
-This will be something like <http://localhost:5173>.
+This will be something like `http://localhost:5173`.
 
 Any changes you make to the documentation files will be reflected automatically each time you save a file.
 When you are happy with the changes, you can save, commit, and push your changes to the repository.
