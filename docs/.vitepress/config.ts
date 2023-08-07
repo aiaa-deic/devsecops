@@ -69,7 +69,7 @@ export default defineConfig({
       alt: "AIAA DEIC - DevSecOps",
     },
     nav: [
-      { text: "About", link: "/about/" },
+      { text: "About", link: "/about/org" },
       {
         text: "Contact Us",
         link: "https://github.com/aiaa-deic/devsecops/issues",
