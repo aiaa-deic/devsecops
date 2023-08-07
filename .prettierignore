@@ -1,0 +1,7 @@
+node_modules/
+dist/
+coverage/
+.github/
+.env
+local_db/
+generated/
