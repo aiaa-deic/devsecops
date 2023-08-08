@@ -9,7 +9,7 @@ hero:
     light: /img/darkLogo.png
     dark: /img/lightLogo.png
     link: https://aiaa.org
-  tagline: "Documentation site for the AIAA DEIC DevSecOps Subcommittee"
+  tagline: "Documentation site for the AIAA DEIC \n DevSecOps Subcommittee"
   actions:
     - theme: brand
       text: AIAA Home
