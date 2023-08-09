@@ -53,12 +53,12 @@
   --vp-button-brand-active-bg: var(--vp-button-brand-bg);
 }
 
-#app {
+#app + .is-home {
   /*width: 100%;*/
   /*height: 100%;*/
-  transform: rotate(0deg);
-  transform-origin: 0 0;
-  background: radial-gradient(84.71% 59.83% at 0% 90%, rgba(54, 87, 132, 0.74) 5.73%, rgba(54, 87, 132, 0.00) 100%);
+  /*transform: rotate(0deg);*/
+  /*transform-origin: 0 0;*/
+  /*background: radial-gradient(84.71% 59.83% at 0% 90%, rgba(54, 87, 132, 0.74) 5.73%, rgba(54, 87, 132, 0.00) 100%);*/
   /*background-color: red;*/
 }
 footer {
@@ -82,6 +82,13 @@ footer {
   /*--vp-home-hero-image-filter: blur(40px);*/
 }
 
+@media (min-width: 20px) {
+   .image > .image-container > .image-src {
+     max-width: 100%;
+     width: 100%;
+   }
+}
+
 @media (min-width: 640px) {
   :root {
     --vp-home-hero-image-filter: blur(56px);
@@ -91,6 +98,10 @@ footer {
 @media (min-width: 960px) {
   :root {
     --vp-home-hero-image-filter: blur(72px);
+  }
+  .image > .image-container > .image-src {
+    max-width: 80%;
+    width: 100%;
   }
 }
 
