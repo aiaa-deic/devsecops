@@ -61,7 +61,7 @@ describing how to do this.
 
 Using a command line terminal, you'll want to navigate to the root of the project.
 You'll know you are in the right location and ready to install dependencies when you find a file named `package.json`.
- This file is the node.js ecosystem's manifest file.
+This file is the node.js ecosystem's manifest file.
 Once in this location, run the command `npm install`.
 
 If successful, you'll see the dependencies installed with no errors.

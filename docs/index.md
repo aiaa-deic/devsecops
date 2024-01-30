@@ -29,6 +29,7 @@ features:
     details: We would love for you to help out!
     link: "/about/contributing"
 ---
+
 <script>
   // let homePage = document.querySelector(".is-home");
   // if (homePage) {

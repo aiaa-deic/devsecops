@@ -83,10 +83,10 @@ footer {
 }
 
 @media (min-width: 20px) {
-   .image > .image-container > .image-src {
-     max-width: 100%;
-     width: 100%;
-   }
+  .image > .image-container > .image-src {
+    max-width: 100%;
+    width: 100%;
+  }
 }
 
 @media (min-width: 640px) {
