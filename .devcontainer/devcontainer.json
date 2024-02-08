@@ -1,0 +1,23 @@
+{
+  "name": "DevSecOps DevContainer",
+  "image": "mcr.microsoft.com/vscode/devcontainers/javascript-node:20",
+  "customizations": {
+    "vscode": {
+      "resmon.show.battery": false,
+      "resmon.show.cpufreq": false
+    }
+  },
+  "forwardPorts": [
+    5173
+  ],
+  "portsAttributes": {
+    "5173": {
+      "label": "DevSecOps Website",
+      "onAutoForward": "silent"
+    }
+  },
+  "postCreateCommand": "bash .devcontainer/postCreateCommand.sh",
+  "features": {
+    "github-cli": "latest"
+  }
+}
