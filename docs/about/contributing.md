@@ -81,3 +81,27 @@ If you are more familiar with the Python ecosystem, you can think of `package.js
 The node program `npm` is similar to the Python program `pip`.
 
 :::
+
+### GitHub Codespaces
+
+This website can be edited using [GitHub Codespaces](https://github.com/features/codespaces) which is a single-click cloud development environment that lets you both interact with this website in a development environment as well as make changes without installing anything locally on your computer.  A codespace can even run directly in a browser.
+
+#### Opening the Editor
+
+To edit this website in a GitHub Codespace, visit the [primary url](https://github.com/aiaa-deic/devsecops) in the repo.  You'll see a big green _Code_ button.  Click it, and make sure you are on the _Codespace_ tab.  Click the `+` icon.  The codespace should open and take you to a screen that looks like Visual Studio Code within a browser window.
+
+:::tip Default Codespace Editor
+
+If you see an error around Jupyter Notebook, you may need to update your default codspace editor.  You can do that in your [settings here.](https://github.com/settings/codespaces).  Scroll about halfway down and look for the heading _Editor Preference_ and select _Visual Studio Code for the Web_.
+
+:::
+
+#### Running the Website
+
+Once you see the VSCode editor view, you can open a terminal (_Ctrl + Shift + \`_) and run the command `npm run dev`.  You can then click on the _Ports_ tab and click the small earth icon to open the website in a new browser tab.
+
+Any changes you make to the code from within the editor (after saving your changes) should be reflected almost immediately in the browser window with the application.
+
+#### Pushing Changes
+
+As with more traditional development, you'll need to push your code updates back on a feature branch or within a forked repository.  The [link above](https://docs.github.com/en/get-started/quickstart/contributing-to-projects) can help with this.  GitHub codespaces can be used to support development and feature updates in line with the article.  Don't hesitate to [reach out](mailto:Josh@JoshHaines.com) if you need help contributing.
