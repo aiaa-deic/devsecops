@@ -37,7 +37,7 @@
     "vue": "^3.4.18"
   },
   "devDependencies": {
-    "@commitlint/cli": "^18.0.0",
+    "@commitlint/cli": "^18.6.1",
     "@commitlint/config-conventional": "^18.0.0",
     "autoprefixer": "^10.4.14",
     "commitizen": "^4.3.0",
