@@ -4,7 +4,6 @@
   "description": "Documentation site for the AIAA DEIC DevSecOps Subcommittee",
   "type": "module",
   "scripts": {
-    "test": "test",
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
     "preview": "npm run build && npx live-server ./docs/.vitepress/dist",
