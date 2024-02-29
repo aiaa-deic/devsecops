@@ -6,7 +6,7 @@ updates:
     schedule:
       interval: weekly
     groups:
-      githubActions:
+      github-actions:
         patterns:
           - "*"
   - package-ecosystem: devcontainers
@@ -14,7 +14,7 @@ updates:
     schedule:
       interval: weekly
     groups:
-      devContainers:
+      dev-containers:
         patterns:
           - "*"
   - package-ecosystem: npm
@@ -22,6 +22,6 @@ updates:
     schedule:
       interval: weekly
     groups:
-      npmEcosystem:
+      npm-packages:
         patterns:
           - "*"
