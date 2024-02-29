@@ -5,11 +5,23 @@ updates:
     directory: /
     schedule:
       interval: weekly
+    groups:
+      githubActions:
+        patterns:
+          - "*"
   - package-ecosystem: devcontainers
     directory: /
     schedule:
       interval: weekly
+    groups:
+      devContainers:
+        patterns:
+          - "*"
   - package-ecosystem: npm
     directory: /
     schedule:
       interval: weekly
+    groups:
+      npmEcosystem:
+        patterns:
+          - "*"
