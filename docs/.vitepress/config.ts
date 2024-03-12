@@ -95,7 +95,7 @@ export default defineConfig({
       message:
         'AIAA DEIC DevSecOps Subcommittee.  Site and content licensed under <a href="https://github.com/aiaa-deic/devsecops/blob/main/LICENSE">MIT</a>.',
       copyright:
-        "© 2023-present American Institute of Aeronautics and Astronautics",
+        "© 2024-present American Institute of Aeronautics and Astronautics",
     },
   },
 })
